@@ -39,7 +39,7 @@ router.delete('/comment/:_id', async (req, res) => {
     await Comment.deleteOne({ _id: _id })
     res.json({ message: "댓글 삭제 완료!!" })
   }
-  res.json({ message: "입력하신 정보가 일치하지 않습니다." })
+  res.json({ message: "입력하신 정보가 일치하지 않습니다요." })
 })
 
 module.exports = router
